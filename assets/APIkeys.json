@@ -1,0 +1,18 @@
+{
+  "description": "API keys and configuration settings for the I.S.H.A. Chat Portal (./pages/chat/). Keys should be kept secure.",
+  "GEMINI": {
+    "API_KEY": "YOUR_GEMINI_API_KEY_HERE_gsk_xxxxxxxxxxxx",
+    "MODEL": "gemini-2.5-flash",
+    "RATE_LIMIT_RPM": 60
+  },
+  "CHATGPT": {
+    "API_KEY": "YOUR_OPENAI_API_KEY_HERE_sk_xxxxxxxxxxxx",
+    "MODEL": "gpt-4o-mini",
+    "ORGANIZATION_ID": "org-xxxxxxxxxxxx"
+  },
+  "GPRF": {
+    "API_KEY": "YOUR_GPRF_AUTH_KEY_HERE_isha_xxxxxxxxxxxx",
+    "ENDPOINT": "https://gprf.isha.76448.org/api/v1/query",
+    "EMOTIONAL_POLICY_ID": "JAST-V-001"
+  }
+}

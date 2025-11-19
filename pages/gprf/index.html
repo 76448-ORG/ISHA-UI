@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>GPRF: The Emotional AI Bridge</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body class="antialiased">
+    <header class="site-header sticky top-4 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div
+          class="flex items-center justify-between py-3 bg-white rounded-xl shadow-lg px-5 neumorph"
+        >
+          <div class="flex items-center gap-3">
+            <a
+              href="/"
+              class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-cyan-500 flex items-center justify-center text-white font-bold text-lg"
+            >
+              G
+            </a>
+            <div>
+              <div class="text-sm font-semibold">GPR-Framework</div>
+              <div class="text-xs text-gray-500 hidden sm:block">
+                The Emotional AI Bridge
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <nav
+              class="hidden md:flex items-center gap-6 text-sm text-gray-600"
+            >
+              <a
+                href="/chat"
+                class="hover:text-indigo-700 font-semibold flex items-center gap-2"
+                ><i class="fas fa-comments"></i> Try Chat</a
+              >
+              <a
+                href="/project-report"
+                class="hover:text-indigo-700 flex items-center gap-2"
+                ><i class="fas fa-file-alt"></i> Tech Report</a
+              >
+              <a
+                href="#team"
+                class="hover:text-indigo-700 flex items-center gap-2"
+                ><i class="fas fa-users"></i> Team</a
+              >
+            </nav>
+            <a
+              href="/gprf/api"
+              class="px-3 py-1 bg-indigo-600 text-white rounded-md text-sm shadow-md hover:bg-indigo-700 transition"
+              >API Key</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mt-8">
+      <section
+        class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center hero-art pt-12 pb-24"
+      >
+        <div class="hero-left fade-up delay-1">
+          <div
+            class="inline-flex items-center gap-2 bg-indigo-50 px-4 py-1 rounded-full text-indigo-700 text-sm font-semibold mb-3"
+          >
+            <i class="fas fa-brain"></i> Dual-Translation Emotive OS
+          </div>
+          <h1
+            class="text-4xl lg:text-5xl font-extrabold leading-tight tracking-tighter"
+          >
+            Meet the <strong>GPR-Framework</strong>
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-500 block mt-2"
+              >The AI That Truly Understands How You Feel.</span
+            >
+          </h1>
+          <p class="mt-4 text-lg text-gray-600 max-w-xl">
+            We've built an <strong>Emotional Operating System (OS)</strong> that
+            acts as a real-time translator between you and any commercial AI. It
+            makes sure AI doesn't just give you the right answer, but delivers
+            it with the right <strong>tone and empathy</strong>.
+          </p>
+          <div class="mt-8 flex gap-4 items-center">
+            <a
+              href="#how-it-works"
+              class="px-6 py-3 rounded-xl bg-indigo-600 text-white font-semibold shadow-xl hover:opacity-95 transition"
+              >See the Flow</a
+            >
+            <a
+              href="/chat"
+              class="px-6 py-3 rounded-xl bg-white border border-gray-200 text-indigo-600 font-semibold shadow-md hover:bg-gray-50 transition"
+              >Chat Now</a
+            >
+          </div>
+        </div>
+        <div class="osi-card-wrapper fade-up delay-2 relative">
+          <div class="p-6 bg-white rounded-3xl shadow-2xl neumorph-dark">
+            <div class="flex justify-around items-center text-center py-10">
+              <div class="flex flex-col items-center">
+                <i class="fas fa-user text-5xl text-indigo-600"></i>
+                <p class="mt-2 font-semibold">Human User</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <i class="fas fa-arrow-right text-2xl text-gray-400"></i>
+                <p class="text-xs text-gray-500">GPRF Bridge</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <i class="fas fa-robot text-5xl text-cyan-500"></i>
+                <p class="mt-2 font-semibold">LLM API</p>
+              </div>
+            </div>
+            <div class="text-center text-sm text-gray-500 mt-4">
+              The GPRF ensures
+              <strong>Optimal Social Integration (OSI)</strong>.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="how-it-works"
+        class="max-w-7xl mx-auto px-4 sm:px-6 py-16 bg-white rounded-3xl shadow-2xl neumorph mt-8 mb-16"
+      >
+        <h2 class="text-3xl font-extrabold text-center">
+          The Dual-Translation Process: A Simple 3-Step Flow
+        </h2>
+        <p class="mt-3 text-lg text-gray-600 text-center max-w-3xl mx-auto">
+          GPRF handles both your <strong>logical query</strong> (what you want)
+          and your <strong>emotional state</strong> (how you feel) to generate a
+          truly human-like response.
+        </p>
+
+        <div
+          class="mt-12 flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-8"
+        >
+          <div
+            class="flex flex-col items-center text-center w-full md:w-1/3 fade-up delay-3"
+          >
+            <div class="flow-step-icon">
+              <i class="fas fa-exchange-alt"></i>
+            </div>
+            <h3 class="mt-4 text-xl font-bold">1. Input Translation</h3>
+            <p class="mt-2 text-sm text-gray-600">
+              Your message is instantly broken down into two parts: the
+              <strong>Core Logical Query</strong> and a precise
+              <strong>4D Emotional Vector</strong>.
+            </p>
+            <div
+              class="mt-4 inline-flex items-center gap-2 bg-indigo-100 px-3 py-1 rounded-full text-indigo-700 text-xs font-medium"
+            >
+              <i class="fas fa-code-branch"></i> Splits Logic & Affect
+            </div>
+          </div>
+
+          <div class="hidden md:block flex-shrink-0 pt-6">
+            <div class="w-12 h-1 bg-gray-300 rounded-full my-6 relative">
+              <div
+                class="absolute right-0 top-1/2 -mt-2 w-0 h-0 border-t-4 border-b-4 border-l-8 border-gray-300"
+              ></div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-center w-full md:w-1/3 fade-up delay-4"
+          >
+            <div class="flow-step-icon bg-cyan-500">
+              <i class="fas fa-microchip"></i>
+            </div>
+            <h3 class="mt-4 text-xl font-bold">2. LLM Processing</h3>
+            <p class="mt-2 text-sm text-gray-600">
+              The <strong>Core Logical Query</strong> is sent to the underlying
+              AI (like Gemini or others) to get the factual,
+              <strong>raw answer</strong>.
+            </p>
+            <div
+              class="mt-4 inline-flex items-center gap-2 bg-cyan-100 px-3 py-1 rounded-full text-cyan-700 text-xs font-medium"
+            >
+              <i class="fas fa-database"></i> Gets Raw Logic
+            </div>
+          </div>
+
+          <div class="hidden md:block flex-shrink-0 pt-6">
+            <div class="w-12 h-1 bg-gray-300 rounded-full my-6 relative">
+              <div
+                class="absolute right-0 top-1/2 -mt-2 w-0 h-0 border-t-4 border-b-4 border-l-8 border-gray-300"
+              ></div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-center w-full md:w-1/3 fade-up delay-5"
+          >
+            <div class="flow-step-icon bg-pink-500">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3 class="mt-4 text-xl font-bold">3. Output Translation</h3>
+            <p class="mt-2 text-sm text-gray-600">
+              GPRF uses the <strong>Emotional Vector</strong> and its
+              <strong>Emotional Policy</strong> to inject the perfect tone into
+              the raw answer.
+            </p>
+            <div
+              class="mt-4 inline-flex items-center gap-2 bg-pink-100 px-3 py-1 rounded-full text-pink-700 text-xs font-medium"
+            >
+              <i class="fas fa-hand-holding-heart"></i> Adds Empathy
+            </div>
+          </div>
+        </div>
+
+        <p class="text-center mt-12 text-sm text-gray-500"></p>
+      </section>
+
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 py-16">
+        <h2 class="text-3xl font-extrabold text-center">
+          The JAST-V Core: A 4D Emotional Compass
+        </h2>
+        <p class="mt-3 text-lg text-gray-600 text-center max-w-3xl mx-auto">
+          Unlike simple systems that only see "Happy" or "Angry," GPRF uses a
+          scientific, <strong>multidimensional map</strong> to capture the full
+          spectrum of human feeling.
+        </p>
+
+        <div class="mt-12 grid lg:grid-cols-2 gap-12 items-center">
+          <div
+            class="neumorph p-8 rounded-2xl bg-white shadow-lg fade-up delay-6"
+          >
+            <h3 class="text-2xl font-bold mb-4 flex items-center gap-3">
+              <i class="fas fa-compass text-indigo-600"></i> The Four Bipolar
+              Dimensions
+            </h3>
+            <p class="text-sm text-gray-600 mb-6">
+              Our system maps your input onto four continuous, opposing axes,
+              based on <strong>Plutchik's Theory</strong>. This allows us to
+              detect subtle, mixed, and nuanced emotions.
+            </p>
+
+            <div class="space-y-4">
+              <div
+                class="p-3 bg-indigo-50 rounded-lg flex justify-between items-center"
+              >
+                <div class="font-semibold text-indigo-800">
+                  Joy &harr; Sadness
+                </div>
+                <i class="fas fa-smile-beam text-xl text-indigo-600"></i>
+              </div>
+              <div
+                class="p-3 bg-cyan-50 rounded-lg flex justify-between items-center"
+              >
+                <div class="font-semibold text-cyan-800">Anger &harr; Fear</div>
+                <i class="fas fa-fist-raised text-xl text-cyan-600"></i>
+              </div>
+              <div
+                class="p-3 bg-pink-50 rounded-lg flex justify-between items-center"
+              >
+                <div class="font-semibold text-pink-800">
+                  Surprise &harr; Anticipation
+                </div>
+                <i class="fas fa-lightbulb text-xl text-pink-600"></i>
+              </div>
+              <div
+                class="p-3 bg-green-50 rounded-lg flex justify-between items-center"
+              >
+                <div class="font-semibold text-green-800">
+                  Trust &harr; Disgust
+                </div>
+                <i class="fas fa-handshake text-xl text-green-600"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="fade-up delay-7">
+            <div
+              class="p-8 bg-white rounded-2xl shadow-lg neumorph-dark h-full flex flex-col justify-center"
+            >
+              <h3 class="text-2xl font-bold mb-4">Why 4D?</h3>
+              <p class="text-gray-600 mb-4">
+                Imagine saying, "I'm <em>excited</em> to finish this project,
+                but I also <em>dread</em> the presentation." GPRF doesn't
+                categorize this as just "mixed." It scores high on
+                <strong>Anticipation</strong> (Joy/Sadness axis) but also high
+                on <strong>Fear</strong> (Anger/Fear axis), resulting in a
+                precise <strong>Emotional Vector</strong> that guides the AI's
+                reply.
+              </p>
+              <p class="text-sm text-gray-500 italic">
+                This level of nuance is key to achieving
+                <strong>truly social AI</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 py-16">
+        <div
+          class="p-10 bg-gradient-to-br from-indigo-50 to-cyan-50 rounded-3xl shadow-2xl flex flex-col lg:flex-row gap-8 items-center"
+        >
+          <div class="lg:w-1/3 text-center lg:text-left fade-up delay-8">
+            <i class="fas fa-sync-alt text-5xl text-indigo-700 mb-4"></i>
+            <h2 class="text-3xl font-extrabold">Never Stop Learning</h2>
+            <p class="mt-2 text-lg text-gray-700">
+              GPRF is designed for <strong>Continual Learning</strong>. It's an
+              AI that grows and adapts indefinitely.
+            </p>
+          </div>
+          <div class="lg:w-2/3 space-y-4 fade-up delay-9">
+            <div
+              class="bg-white p-5 rounded-xl shadow-md flex items-center gap-4"
+            >
+              <div
+                class="flow-step-icon bg-green-500 w-10 h-10 text-lg flex-shrink-0"
+              >
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold">Adapts to You</h4>
+                <p class="text-sm text-gray-600">
+                  The framework learns your unique style, vocabulary, and
+                  emotional triggers over time. No more static,
+                  one-size-fits-all AI.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-white p-5 rounded-xl shadow-md flex items-center gap-4"
+            >
+              <div
+                class="flow-step-icon bg-red-500 w-10 h-10 text-lg flex-shrink-0"
+              >
+                <i class="fas fa-history"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold">Prevents Forgetting (EWC)</h4>
+                <p class="text-sm text-gray-600">
+                  Using <strong>Elastic Weight Consolidation (EWC)</strong>,
+                  GPRF doesn't forget old skills when learning new ones,
+                  maintaining stable proficiency over long periods.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+        <h2 class="text-3xl font-extrabold text-center">
+          Meet the Team Behind GPRF
+        </h2>
+        <p class="text-sm text-gray-600 text-center mt-2">
+          The GPR-Framework is powered by dedicated researchers, engineers, and
+          expert advisors.
+        </p>
+
+        <div id="team-members" class="mt-8"></div>
+
+        <div id="contributors" class="mt-8"></div>
+
+        <div id="mentors" class="mt-8"></div>
+      </section>
+    </main>
+
+    <footer class="mt-12 bg-gray-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 text-center">
+        <div class="text-white text-lg font-semibold">
+          GPR-Framework Research Initiative
+        </div>
+        <div class="mt-2 text-sm text-gray-400">
+          Generative & Programmable Response Framework (GPRF)
+        </div>
+        <div class="mt-4 flex justify-center space-x-6">
+          <a href="/chat" class="text-gray-400 hover:text-white transition"
+            ><i class="fas fa-comment"></i> Chat</a
+          >
+          <a
+            href="https://github.com/76448-ORG/GPR-Framework"
+            target="_blank"
+            class="text-gray-400 hover:text-white transition"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          <a
+            href="/project-report"
+            class="text-gray-400 hover:text-white transition"
+            ><i class="fas fa-file-alt"></i> Report</a
+          >
+        </div>
+        <div class="mt-6 text-xs text-gray-500">
+          © <span id="year">2025</span> I.S.H.A. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I.S.H.A. Chat Portal</title>
+    <link href="index.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-gray-50">
+    <div class="chat-container">
+      <header class="chat-header">
+        <h1 class="text-xl font-bold">
+          I.S.H.A. Chat
+          <span class="text-sm font-normal text-gray-500">v1.0</span>
+        </h1>
+        <div class="api-selector-wrapper">
+          <label for="api-select" class="text-xs text-gray-500 mr-2"
+            >Target API:</label
+          >
+          <select id="api-select" class="api-select">
+            <option value="gemini">Gemini</option>
+            <option value="chatgpt">ChatGPT</option>
+            <option value="gprf" disabled>GPRF (Soon)</option>
+          </select>
+        </div>
+      </header>
+
+      <div id="chat-body" class="chat-body">
+        <div class="message-info">
+          Welcome, bro. Select your target API and start chatting.
+        </div>
+      </div>
+
+      <div class="chat-input-area">
+        <textarea
+          id="chat-input"
+          placeholder="Type your message..."
+          rows="1"
+          class="chat-input"
+        ></textarea>
+        <button id="chat-send" class="chat-send-btn">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

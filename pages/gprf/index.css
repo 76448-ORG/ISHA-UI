@@ -1,0 +1,118 @@
+/* Custom CSS based on original inline styles, refactored for the manual page */
+:root {
+  --bg: #0b1020; /* deep */
+  --muted: #94a3b8;
+  --glass: rgba(255, 255, 255, 0.8);
+  --accent: #7c3aed;
+  --accent-2: #06b6d4;
+  --text-primary: #0f172a;
+  --text-secondary: #f8fafc;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 60%);
+  color: var(--text-primary);
+  font-feature-settings: "liga" 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+.site-header {
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
+}
+/* Hero Art */
+.hero-art {
+  background: radial-gradient(
+      circle at 10% 20%,
+      rgba(124, 58, 237, 0.08),
+      transparent 10%
+    ),
+    radial-gradient(circle at 80% 80%, rgba(6, 182, 212, 0.06), transparent 12%);
+}
+
+/* Custom Card */
+.neumorph {
+  box-shadow: 8px 8px 24px rgba(12, 18, 32, 0.06),
+    -8px -8px 24px rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+}
+.neumorph-dark {
+  background-color: #f8fafc;
+  box-shadow: inset 5px 5px 10px #e0e5f2, inset -5px -5px 10px #ffffff;
+}
+
+/* Fade-in animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeUp 0.7s forwards;
+}
+.delay-1 {
+  animation-delay: 0.06s;
+}
+.delay-2 {
+  animation-delay: 0.12s;
+}
+.delay-3 {
+  animation-delay: 0.18s;
+}
+.delay-4 {
+  animation-delay: 0.24s;
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Animated gradient bands (used for status/separators) */
+.band {
+  height: 6px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  border-radius: 4px;
+  background-size: 200% 100%;
+  animation: slide 6s linear infinite;
+}
+@keyframes slide {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+/* Flow Step Icons - for the Dual-Translation Flowchart */
+.flow-step-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  box-shadow: 0 8px 15px rgba(124, 58, 237, 0.3);
+}
+
+/* Team Member Cards */
+.member-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.member-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(124, 58, 237, 0.15);
+}
+
+/* Footer */
+footer small {
+  color: var(--muted);
+}

@@ -1,0 +1,101 @@
+:root {
+  --bg-color: #f8fafc; /* Light background */
+  --text-color: #0f172a; /* Dark text */
+  --accent-color: #7c3aed; /* Indigo/Purple */
+  --card-bg: #ffffff;
+  --shadow-light: rgba(12, 18, 32, 0.08);
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--accent-color);
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #64748b;
+  font-size: 1.1rem;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.link-card {
+  display: block;
+  background-color: var(--card-bg);
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text-color);
+  box-shadow: 0 4px 12px var(--shadow-light);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  border: 1px solid transparent;
+}
+
+.link-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px var(--shadow-light), 0 0 0 2px var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.link-card i {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.link-card h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.link-card p {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-top: 5px;
+}
+
+footer {
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+footer small {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}

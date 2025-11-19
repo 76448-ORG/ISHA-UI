@@ -1,0 +1,205 @@
+{
+  "title": "GPRF-MAN",
+  "description": "Generative and Programmable Response Framework Manual",
+  "members": [
+    {
+      "name": "Srijan Bhattacharyya",
+      "position": [
+        "Leader",
+        "Embedded System Engineer"
+      ],
+      "contact-details": {
+        "phone": [
+          "+91 94336 42433",
+          "+91 70593 43651"
+        ],
+        "email": "srijan.76448@gmail.com"
+      },
+      "socials": {
+        "GitHub": "srijan-76448",
+        "instagram": "srijan.76448",
+        "facebook": "srijan.76448",
+        "linkedin": "srijan76448",
+        "medium": "srijan-76448"
+      },
+      "attributes": {
+        "image": "srijan.webp",
+        "degrees": []
+      }
+    },
+    {
+      "name": "Kushal Biswas",
+      "position": [
+        "Member"
+      ],
+      "contact-details": {
+        "phone": [
+          "+91 90382 22004"
+        ],
+        "email": "@gmail.com"
+      },
+      "socials": {
+        "GitHub": "2122003",
+        "instagram": "",
+        "facebook": "",
+        "linkedin": "",
+        "medium": ""
+      },
+      "attributes": {
+        "image": "",
+        "degrees": []
+      }
+    },
+    {
+      "name": "Pukar Sharma",
+      "position": [
+        "Member"
+      ],
+      "contact-details": {
+        "phone": [
+          "+91 97491 13518"
+        ],
+        "email": "@gmail.com"
+      },
+      "socials": {
+        "GitHub": "PukarSharma00000",
+        "instagram": "",
+        "facebook": "",
+        "linkedin": "",
+        "medium": ""
+      },
+      "attributes": {
+        "image": "",
+        "degrees": []
+      }
+    },
+    {
+      "name": "Mojammil Ansari",
+      "position": [
+        "Member"
+      ],
+      "contact-details": {
+        "phone": [
+          "+91 76440 67426"
+        ],
+        "email": "@gmail.com"
+      },
+      "socials": {
+        "GitHub": "MojammilAnsari820",
+        "instagram": "",
+        "facebook": "",
+        "linkedin": "",
+        "medium": ""
+      },
+      "attributes": {
+        "image": "",
+        "degrees": []
+      }
+    },
+    {
+      "name": "Arijit Ghosh",
+      "position": [
+        "Member"
+      ],
+      "contact-details": {
+        "phone": [
+          "+91 74398 59758"
+        ],
+        "email": "@gmail.com"
+      },
+      "socials": {
+        "GitHub": "arijittttt",
+        "instagram": "",
+        "facebook": "",
+        "linkedin": "",
+        "medium": ""
+      },
+      "attributes": {
+        "image": "",
+        "degrees": []
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dr. Jhumki Burman",
+      "position": [
+        "Psychologist",
+        "Advisor"
+      ],
+      "contact-details": {
+        "phone": [
+          "+91 99035 59727"
+        ],
+        "email": "@gmail.com"
+      },
+      "socials": {
+        "GitHub": "",
+        "instagram": "",
+        "facebook": "",
+        "linkedin": "",
+        "medium": ""
+      },
+      "attributes": {
+        "image": "",
+        "degrees": [
+          "MBBS"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Monojit Chattarjee",
+      "position": [
+        "ML Engineer",
+        "Advisor"
+      ],
+      "contact-details": {
+        "phone": [
+          "+91 98304 14089"
+        ],
+        "email": "@gmail.com"
+      },
+      "socials": {
+        "GitHub": "",
+        "instagram": "",
+        "facebook": "",
+        "linkedin": "",
+        "medium": ""
+      },
+      "attributes": {
+        "image": "",
+        "degrees": [
+          "PhD in SVM"
+        ]
+      }
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Dr. Utsa Roy",
+      "position": [
+        "Mentor",
+        "Advisor"
+      ],
+      "contact-details": {
+        "phone": [
+          "+91 95634 20475"
+        ],
+        "email": "@gmail.com"
+      },
+      "socials": {
+        "GitHub": "Utsa-Roy",
+        "instagram": "",
+        "facebook": "",
+        "linkedin": "",
+        "medium": ""
+      },
+      "attributes": {
+        "image": null,
+        "degrees": [
+          "PhD in Blockchain Technology"
+        ]
+      }
+    }
+  ]
+}

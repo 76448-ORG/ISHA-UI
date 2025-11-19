@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #7c3aed; /* Indigo */
+  --text-color: #1f2937; /* Gray 800 */
+  --bg-color: #ffffff;
+  --border-color: #e5e7eb; /* Gray 200 */
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.report-container {
+  max-width: 960px;
+  margin: 40px auto;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+}
+
+/* Header and Navigation */
+.report-header {
+  padding: 2rem 2.5rem 1.5rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.breadcrumb {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+.breadcrumb span {
+  margin: 0 4px;
+}
+.nav-link {
+  color: #6b7280;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+.current-page {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.report-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+/* Content Area for Rendered Markdown */
+.report-content {
+  padding: 2.5rem;
+}
+
+/* Markdown Styling (GitHub-like) */
+#report-content h1,
+#report-content h2,
+#report-content h3,
+#report-content h4 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+#report-content h1 {
+  font-size: 2.25rem;
+  color: #374151;
+}
+#report-content h2 {
+  font-size: 1.75rem;
+  color: #4b5563;
+}
+#report-content h3 {
+  font-size: 1.5rem;
+  color: #6b7280;
+  border-bottom: none;
+}
+#report-content h4 {
+  font-size: 1.25rem;
+  color: #9ca3af;
+  border-bottom: none;
+}
+
+#report-content p {
+  margin-bottom: 1em;
+}
+
+/* Lists */
+#report-content ul,
+#report-content ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+/* Code Blocks (e.g., Triple backticks) */
+#report-content pre {
+  background-color: #f3f4f6; /* Gray 100 */
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: "Consolas", "Monaco", monospace;
+  font-size: 0.875rem;
+}
+
+/* Inline Code */
+#report-content code {
+  background-color: #eff6ff; /* Blue 50 */
+  color: var(--primary-color);
+  padding: 0.2em 0.4em;
+  margin: 0 2px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Links */
+#report-content a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--primary-color);
+  transition: color 0.2s;
+}
+#report-content a:hover {
+  color: #4f46e5;
+  border-bottom-style: solid;
+}
+
+/* Status Messages */
+.loading,
+.error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: #6b7280;
+}
+.error {
+  color: #ef4444; /* Red 500 */
+}
+.hidden {
+  display: none;
+}
